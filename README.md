@@ -1,4 +1,1 @@
 # EZTypes.github.io
-theme: jekyll-theme-minimal
-title: EZType's homepage
-description: A portfolio highlighting my projects, technical skills, and professional growth by demonstrating my experience through projects, code, and documentation.
