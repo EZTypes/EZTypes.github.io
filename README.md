@@ -23,6 +23,7 @@
 
 ## Artifact #1:
 #### The original implementation tightly coupled database operations, filtering logic, and visualization within a single script. The enhanced design introduces a layered architecture consisting of a data access layer, service layer, and filtering module. This separation improves maintainability, scalability, and aligns with industry-standard software engineering practices such as separation of concerns and modular design.
+[Artifact #1.zip](https://github.com/user-attachments/files/27072157/Artifact.1.zip)
 
 ## Artifact #2:
 #### The original implementation relied on retrieving large datasets from MongoDB and performing filtering operations within the application layer, resulting in increased computational overhead and inefficient data processing. The enhanced solution improves efficiency by leveraging MongoDB indexing and optimized query construction to shift filtering operations to the database layer. Additionally, projection was implemented to limit retrieved fields, reducing data transfer and memory usage. To further improve performance, Python data structures such as sets were used to eliminate duplicate records with constant-time lookup complexity. These enhancements reduced overall execution time and demonstrate the importance of algorithm and data structure selection in optimizing system performance.
