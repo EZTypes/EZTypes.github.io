@@ -13,21 +13,21 @@
 
 ###### Overall, this ePortfolio introduces the full scope of my skills and reflects my readiness to enter the field. It demonstrates my technical competence, my ability to collaborate and communicate effectively, and my commitment to continuous improvement. I am confident that the knowledge and experience I gained throughout this program have prepared me to contribute meaningfully in a professional computing environment.
 
-## Artifacts:
+## Categories:
 
-#### My three artifacts will revolve around one class, "CS 340: Advanced Programming Concepts". The original project is an interactive, data-driven web dashboard originally developed and built for Grazioso Salvare, a company that identifies dogs for search-and-rescue missions. The application connects to a MongoDB database containing animal shelter data from the Austin Animal Center. The dashboard allows users to filter and explore records based on rescue suitability criteria, displaying results through a data table, a breed distribution pie chart, and an interactive map for selected animals, transforming raw data into actionable insights that support efficient identification of suitable rescue candidates.
+#### My three artifacts for my categories will revolve around one class, "CS 340: Advanced Programming Concepts". The original project is an interactive, data-driven web dashboard originally developed and built for Grazioso Salvare, a company that identifies dogs for search-and-rescue missions. The application connects to a MongoDB database containing animal shelter data from the Austin Animal Center. The dashboard allows users to filter and explore records based on rescue suitability criteria, displaying results through a data table, a breed distribution pie chart, and an interactive map for selected animals, transforming raw data into actionable insights that support efficient identification of suitable rescue candidates.
 
 ## Original Project:
 [CS 340 Original Files.zip](https://github.com/user-attachments/files/26995755/CS.340.Original.Files.zip)
 
-
-## Artifact #1:
+## Category #1: Software Engineering and Design
 #### The original implementation tightly coupled database operations, filtering logic, and visualization within a single script. The enhanced design introduces a layered architecture consisting of a data access layer, service layer, and filtering module. This separation improves maintainability, scalability, and aligns with industry-standard software engineering practices such as separation of concerns and modular design.
 [Artifact #1.zip](https://github.com/user-attachments/files/27072157/Artifact.1.zip)
 
-## Artifact #2:
+## Category #2: Algorithms and Data Structures
 #### The original implementation relied on retrieving large datasets from MongoDB and performing filtering operations within the application layer, resulting in increased computational overhead and inefficient data processing. The enhanced solution improves efficiency by leveraging MongoDB indexing and optimized query construction to shift filtering operations to the database layer. Additionally, projection was implemented to limit retrieved fields, reducing data transfer and memory usage. To further improve performance, Python data structures such as sets were used to eliminate duplicate records with constant-time lookup complexity. These enhancements reduced overall execution time and demonstrate the importance of algorithm and data structure selection in optimizing system performance.
+[Artifact #2.zip](https://github.com/user-attachments/files/27074647/Artifact.2.zip)
 
-## Artifact #3:
+## Category #3: Databases
 #### The original implementation directly queried MongoDB and processed data within the dashboard, limiting scalability and increasing application-side workload. The enhanced design introduces an API layer that abstracts database interactions and incorporates advanced MongoDB features such as indexing and aggregation pipelines. These improvements allow data processing to occur at the database level, reducing computational overhead and improving performance. Additionally, the API layer enhances security and maintainability by centralizing database access and separating concerns between the user interface and data management components.
-
+[Artifact #3.zip](https://github.com/user-attachments/files/27074684/Artifact.3.zip)
