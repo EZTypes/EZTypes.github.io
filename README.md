@@ -13,7 +13,9 @@
 
 ###### Overall, this ePortfolio introduces the full scope of my skills and reflects my readiness to enter the field. It demonstrates my technical competence, my ability to collaborate and communicate effectively, and my commitment to continuous improvement. I am confident that the knowledge and experience I gained throughout this program have prepared me to contribute meaningfully in a professional computing environment.
 
-### My three artifacts will revolve around one class, "CS 340: Advanced Programming Concepts". The original project is an interactive, data-driven web dashboard originally developed and built for Grazioso Salvare, a company that identifies dogs for search-and-rescue missions. The application connects to a MongoDB database containing animal shelter data from the Austin Animal Center. The dashboard allows users to filter and explore records based on rescue suitability criteria, displaying results through a data table, a breed distribution pie chart, and an interactive map for selected animals, transforming raw data into actionable insights that support efficient identification of suitable rescue candidates.
+## Artifacts:
+
+#### My three artifacts will revolve around one class, "CS 340: Advanced Programming Concepts". The original project is an interactive, data-driven web dashboard originally developed and built for Grazioso Salvare, a company that identifies dogs for search-and-rescue missions. The application connects to a MongoDB database containing animal shelter data from the Austin Animal Center. The dashboard allows users to filter and explore records based on rescue suitability criteria, displaying results through a data table, a breed distribution pie chart, and an interactive map for selected animals, transforming raw data into actionable insights that support efficient identification of suitable rescue candidates.
 
 ## Original Project:
 [CS 340 Original Files.zip](https://github.com/user-attachments/files/26995755/CS.340.Original.Files.zip)
@@ -27,3 +29,4 @@
 
 ## Artifact #3:
 #### The original implementation directly queried MongoDB and processed data within the dashboard, limiting scalability and increasing application-side workload. The enhanced design introduces an API layer that abstracts database interactions and incorporates advanced MongoDB features such as indexing and aggregation pipelines. These improvements allow data processing to occur at the database level, reducing computational overhead and improving performance. Additionally, the API layer enhances security and maintainability by centralizing database access and separating concerns between the user interface and data management components.
+
